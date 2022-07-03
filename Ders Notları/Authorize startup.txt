@@ -1,0 +1,23 @@
+ public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+            services.AddSession();
+            services.AddMvc(config=>
+            {
+                var policy=new AuthorizationPolicyBuilder()  --> her sayfa authencetali oluyor! authencati deaktif etmek için[AllowAnonymous]
+                     .RequireAuthenticatedUser()
+                     .Build();
+                     config.Filters.Add(new AuthorizeFilter(policy));     
+            });
+            services.AddMvc();
+            services.AddAuthentication(
+                CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(x=>
+                {
+                    x.LoginPath="/Login/Index";
+                });
+            
+        }
+
+--> services.AddMvc fonksiyonun ekliyoruz
+--> services.AddAuthentication İLE GİRTİŞ İŞLEMİ YAPILMADığı için direlt login sayfasına atar bizi!

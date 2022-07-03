@@ -1,0 +1,7 @@
+dotnet new globaljson --sdk-version 5.0 --> 1
+dotnet new classlib -o DosyaAdı
+dotnet new mvc
+dotnet new classlib -o DosyaAdı
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkcore.Design --version 5.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools
