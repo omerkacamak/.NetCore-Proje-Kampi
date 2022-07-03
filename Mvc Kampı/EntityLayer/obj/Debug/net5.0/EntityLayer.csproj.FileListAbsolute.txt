@@ -10,3 +10,15 @@ C:\Users\90545\Desktop\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.cspro
 C:\Users\90545\Desktop\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\90545\Desktop\Mvc Kampı\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\90545\Desktop\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\90545\Desktop\ASP BLOG UYGULAMA\Mvc Kampı\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb

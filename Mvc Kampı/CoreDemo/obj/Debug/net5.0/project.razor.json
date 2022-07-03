@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
+  "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -13566,6 +13566,138 @@
         }
       },
       {
+        "HashCode": 1746849605,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__WriterLastBlogViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:writer-last-blog",
+            "Attributes": [
+              {
+                "Name": "s"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "s",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "s"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__WriterLastBlogViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "WriterLastBlog"
+        }
+      },
+      {
+        "HashCode": 221258696,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoryListViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:category-list"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoryListViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoryList"
+        }
+      },
+      {
+        "HashCode": 1349851124,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CommentListViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:comment-list"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CommentListViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CommentList"
+        }
+      },
+      {
+        "HashCode": 505155285,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CommentListByBlogViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:comment-list-by-blog",
+            "Attributes": [
+              {
+                "Name": "id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CommentListByBlogViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CommentListByBlog"
+        }
+      },
+      {
+        "HashCode": 473606603,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__WriterMessageNotificationViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:writer-message-notification"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__WriterMessageNotificationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "WriterMessageNotification"
+        }
+      },
+      {
+        "HashCode": 1465810323,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__WriterNotificationViewComponentTagHelper",
+        "AssemblyName": "CoreDemo",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:writer-notification"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__WriterNotificationViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "WriterNotification"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15619,38 +15751,188 @@
   "RootNamespace": "CoreDemo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Partial1.cshtml",
+      "TargetPath": "Views\\Shared\\Partial1.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Writer\\WriterNavBarPartial.cshtml",
+      "TargetPath": "Views\\Writer\\WriterNavBarPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Writer\\Index.cshtml",
+      "TargetPath": "Views\\Writer\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Writer\\WriterFooterPartial.cshtml",
+      "TargetPath": "Views\\Writer\\WriterFooterPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\WriterLayout.cshtml",
+      "TargetPath": "Views\\Shared\\WriterLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\CategoryList\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoryList\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\NewsLetter\\SubscribeMail.cshtml",
+      "TargetPath": "Views\\NewsLetter\\SubscribeMail.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\About\\SocialMediaAbout.cshtml",
+      "TargetPath": "Views\\About\\SocialMediaAbout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Blog\\EditBlog.cshtml",
+      "TargetPath": "Views\\Blog\\EditBlog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Views\\Login\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Blog\\Index.cshtml",
+      "TargetPath": "Views\\Blog\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Blog\\BlogReadAll.cshtml",
+      "TargetPath": "Views\\Blog\\BlogReadAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\About\\Index.cshtml",
+      "TargetPath": "Views\\About\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Partial2.cshtml",
+      "TargetPath": "Views\\Shared\\Partial2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Blog\\BlogAdd.cshtml",
+      "TargetPath": "Views\\Blog\\BlogAdd.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Register\\Index.cshtml",
+      "TargetPath": "Views\\Register\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\CommentListByBlog\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CommentListByBlog\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Partial3.cshtml",
+      "TargetPath": "Views\\Shared\\Partial3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\UserLayout.cshtml",
+      "TargetPath": "Views\\Shared\\UserLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Blog\\BlogListByWriter.cshtml",
+      "TargetPath": "Views\\Blog\\BlogListByWriter.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\WriterLastBlog\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\WriterLastBlog\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Comment\\Index.cshtml",
+      "TargetPath": "Views\\Comment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Comment\\CommentListByBlog.cshtml",
+      "TargetPath": "Views\\Comment\\CommentListByBlog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Shared\\Components\\CommentList\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CommentList\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\ErrorPage\\Error1.cshtml",
+      "TargetPath": "Views\\ErrorPage\\Error1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Writer\\Test.cshtml",
+      "TargetPath": "Views\\Writer\\Test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\Views\\Comment\\PartialAddComment.cshtml",
+      "TargetPath": "Views\\Comment\\PartialAddComment.cshtml",
       "FileKind": "mvc"
     }
   ],

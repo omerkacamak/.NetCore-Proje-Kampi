@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7OXLvD5klV/zZGkEtNyGHt3op6b28nQi3l5evBTyFhsmFDa6uw7gj/VO/XNKg/gSvc2l8l5d4ITYeQZCvJMSg==",
+  "dgSpecHash": "mQrRRB1E5zsu1yzfxTEitCcKRT8mupXyYIk5csWMO9eHK1HZtgXnquXwabr/tsNIbMHKDHsF0+SXXQc1M3aqww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90545\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\90545\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

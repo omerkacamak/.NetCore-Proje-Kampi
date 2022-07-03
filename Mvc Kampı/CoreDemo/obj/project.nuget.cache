@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mnM0b+60/azm4wzaDn43D2tMyOWflTjzF1AV8AXcJQkwxKOC23L9SSvuGha1Hz9paf6xuWdJbnxkTRrnjJvviA==",
+  "dgSpecHash": "NOr2rilzwU68/6juadaSqMGndpaY1hog24R54eVY3rfvzdGA0LKLcMBa2iwD3CFrfxFzKaRBrQYEHzmhis5BqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
+  "projectFilePath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90545\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\90545\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\90545\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.0\\fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
+    "C:\\Users\\90545\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\90545\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
     "C:\\Users\\90545\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\90545\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

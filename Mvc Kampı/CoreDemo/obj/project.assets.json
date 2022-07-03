@@ -11,6 +11,44 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "FluentValidation/11.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.0.0"
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.0.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Google.Protobuf/3.11.4": {
         "type": "package",
         "dependencies": {
@@ -1648,7 +1686,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DataAccessLayer": "1.0.0",
-          "EntityLayer": "1.0.0"
+          "EntityLayer": "1.0.0",
+          "FluentValidation.AspNetCore": "11.0.0"
         },
         "compile": {
           "bin/placeholder/BusinessLayer.dll": {}
@@ -1708,6 +1747,63 @@
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
         "lib/xamarinios/BouncyCastle.Crypto.dll",
         "lib/xamarinios/BouncyCastle.Crypto.xml"
+      ]
+    },
+    "FluentValidation/11.0.0": {
+      "sha512": "cD0VaOQfVZGxp3UFBDET5KztMe1W0QUgk7vP/e1zus0ofALqab5/B5S319+XEFvhw0KEStS3yfCDGpvQM10C6A==",
+      "type": "package",
+      "path": "fluentvalidation/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.0.0": {
+      "sha512": "Ld0kH/0BJXxF4vHlZRtpjghGA8eElOn/imgqYcFPJ602gVQcSDmsENxjHZx4kx/U89fNWwTA6Z2bcJcewm3DrQ==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.0.0": {
+      "sha512": "jBQjbAxpXWnoalvGKTLyUoArNJ1dnIpxOknENxa7XuXHMy80Gc+VNJk5OoOpVX8JfhpZkLQOaPozycGVtUo7Tg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Google.Protobuf/3.11.4": {
@@ -6209,25 +6305,31 @@
       "BusinessLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
+      "FluentValidation.AspNetCore >= 11.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkcore.Design >= 5.0.0",
       "MySql.EntityFrameworkCore >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\90545\\.nuget\\packages\\": {}
+    "C:\\Users\\90545\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
+      "projectUniqueName": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
       "projectName": "CoreDemo",
-      "projectPath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
+      "projectPath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\CoreDemo.csproj",
       "packagesPath": "C:\\Users\\90545\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\CoreDemo\\obj\\",
+      "outputPath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\CoreDemo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\90545\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6241,14 +6343,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\90545\\Desktop\\Mvc Kampı\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\90545\\Desktop\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\90545\\Desktop\\Mvc Kampı\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\90545\\Desktop\\Mvc Kampı\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\90545\\Desktop\\ASP BLOG UYGULAMA\\Mvc Kampı\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -6263,6 +6365,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -6296,7 +6402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
